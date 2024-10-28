@@ -1,0 +1,88 @@
+{
+    "section": {
+        "omOskarCafe": [
+            {
+                "name": "Tæt på musikken",
+                "id": 0,
+                "text": [
+                    "Kulturcafé Oskar er et spillested med levende musik for levende mennesker. Hvert år afholdes mellem 26 og 30 koncerter, der spænder meget bredt stilmæssigt. Der er intime koncerter med en eller to musikere på scenen, rockkoncerter og danseaftener med god popmusik.",
+                    "Fælles for det hele er et nøje udvalgt program med erfarne og anerkendte kunstnere præsenteret i et topprofessionelt setup med virkelig god lyd og lys.",
+                    "På Kulturcafé Oskar kommer man tæt på musikken og musikken kommer tæt på publikum. Derfor vil mange gerne spille på Oskar og mange gæster kommer igen og igen på grund af den helt særlige stemning.",
+                    "Sideløbende med musikken indgår Oskar i samarbejde med andre foreninger, der bruger stedet til fx ungdomsarrangementer (Søby UngdomsProjekt), teater og danseskole."
+                ]
+            },
+            {
+                "name": "Foreningen bag",
+                "id": 1,
+                "text": [
+                    "Kulturcafé Oskar drives af en kreds af frivillige ildsjæle med en fælles passion for levende musik og glæden ved at have et aktivt spillested i Søby.",
+                    "Oskar er en nonprofit forening på ca. 40 medlemmer med en bestyrelse, samt en række andre udvalg / arbejdsgrupper. Det lokale erhvervsliv, Søby Kommune samt forskellige organisationer og fonde støtter projektet økonomisk på flotteste vis. Sammen med billetindtægterne og barsalget er det foreningens økonomiske grundlag"
+                ]
+            },
+            {
+                "name": "Lej Oskar",
+                "id": 2,
+                "text": [
+                    "Bygningen på Kingosvej kan lejes af private, foreninger og firmaer. Udlejningsansvarlig er Bent Poulsen, der kan kontaktes på tlf: xxxxxxxx eller mail: Bent.Poulsen@kulturcafeoskar.dk Kontakt Bent for at høre om mulighederne og om Kulturcafé Oskar er ledig.",
+                    "Prisliste for private",
+                    "\\list1\\",
+                    "Møde / konference / kursus",
+                    "Hold virksomhedens arrangement på Oskar. Vi kan skræddersy arrangementer for op til 70 personer i smukke omgivelser. I lokalerne forefindes bl.a.: projekter, lærred og internet."
+                ],
+                "list1": [
+                    "Døgnleje på fredage, lørdage, søndage og helligdage: kr. 3.200 incl. rengøring.",
+                    "Døgnleje på øvrige hverdage: kr. 2.300 incl. rengøring ",
+                    "Leje for en halv hverdag: kr. 1.400 incl. rengøring",
+                    "Lørdag fra kl. 8 til mandag kl. 6: kr. 4.200 incl. rengøring "
+                ]
+            }
+        ],
+        "BilletOgBord": [
+            {
+                "name": "Billetsalg",
+                "id": 0,
+                "text": [
+                    "Alle billetter til Kulturcafé Oskars arrangementer sættes til salg på Ticketmaster.dk. Billetprisen på hjemmesiden er inklusive gebyrer.\n Ved hver event i programmet er der et direkte link til Ticketmasters billetsalg.\n",
+                    "Billetter, der ikke er solgt forlods, sættes til salg ved døren en time før koncerten.\n",
+                    "På Kulturcafeoskar.dk annonceres det, hvis der kun er få billetter tilbage eller koncerten er udsolgt. Det anbefales at købe billet i forsalg, da mange koncerter bliver udsolgte.\n"
+                ]
+            },
+            {
+                "name": "Bordreservation",
+                "id": 1,
+                "text": [
+                    "Den gamle bygning rummer 120 siddende gæster eller 140 gæster til de stående koncerter.  Ved de fleste koncerter sidder man ved runde caféborde med plads til 4-5 personer. De stående koncerter er som regel rockkoncerter eller arrangementer, hvor man kan forudse, at der skal danses igennem. Stående koncerter er tydeligt annonceret i programmet.\n",
+                    "Lokalets størrelse og indretning gør, at alle ser og hører lige godt, derfor kan man kun forhåndsreservere bord ved grupper på seks eller flere. I de tilfælde benytter vi nemlig andre borde end de sædvanlige runde caféborde. Kontakt os senest dagen før på bo.Hansen@kulturcafeoskar.dk eller sms til tlf. xxxxxxxx, hvis du ønsker at reservere bord. Har man reserveret bord, skal man komme senest 20 min. før koncertstart, ellers vil reservationen blive annulleret.\n",
+                    "Adgangen til Oskar er handicapvenlig. Kom i god tid og kontakt barteamet, så hjælper de dig ind.\n"
+                ]
+            }
+        ]
+    },
+    "kontaktInfo": {
+        "navn": "Kulturcafé Oskar",
+        "location": "Kingosvej 5 4321 Søby",
+        "tlf": "xxxxxxxx",
+        "medlemer": {
+            "Poul Frederiksen": {
+                "tlf": "xxxxxxxx",
+                "mail": "xxxxx@gmail.com"
+            },
+            "Bent Poulsen": {
+                "tlf": "xxxxxxxx",
+                "mail": "Bent.Poulsen@kulturcafeoskar.dk"
+            },
+            "Bo Hansen": {
+                "tlf": "xxxxxxxx",
+                "mail": "bo.Hansen@kulturcafeoskar.dk"
+            },
+            "bo.Hansen@kulturcafeoskar.dk": {
+                "tlf": "xxxxxxxx",
+                "mail": "xxxxxxx@gmail.com"
+            },
+            "Kristian Hansen": {
+                "tlf": "xxxxxxxx",
+                "mail": "xxxxxxxx@gmail.com"
+            }
+        }
+    }
+}
