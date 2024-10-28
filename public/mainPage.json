@@ -1,0 +1,51 @@
+{
+    "section": {
+        "BilletOgBord": [
+            {
+                "name": "Billetsalg",
+                "id": 0,
+                "text": [
+                    "Alle billetter til Kulturcafé Oskars arrangementer sættes til salg på Ticketmaster.dk. Billetprisen på hjemmesiden er inklusive gebyrer.\n Ved hver event i programmet er der et direkte link til Ticketmasters billetsalg.\n",
+                    "Billetter, der ikke er solgt forlods, sættes til salg ved døren en time før koncerten.\n",
+                    "På Kulturcafeoskar.dk annonceres det, hvis der kun er få billetter tilbage eller koncerten er udsolgt. Det anbefales at købe billet i forsalg, da mange koncerter bliver udsolgte.\n"
+                ]
+            },
+            {
+                "name": "Bordreservation",
+                "id": 1,
+                "text": [
+                    "Den gamle bygning rummer 120 siddende gæster eller 140 gæster til de stående koncerter.  Ved de fleste koncerter sidder man ved runde caféborde med plads til 4-5 personer. De stående koncerter er som regel rockkoncerter eller arrangementer, hvor man kan forudse, at der skal danses igennem. Stående koncerter er tydeligt annonceret i programmet.\n",
+                    "Lokalets størrelse og indretning gør, at alle ser og hører lige godt, derfor kan man kun forhåndsreservere bord ved grupper på seks eller flere. I de tilfælde benytter vi nemlig andre borde end de sædvanlige runde caféborde. Kontakt os senest dagen før på bo.Hansen@kulturcafeoskar.dk eller sms til tlf. xxxxxxxx, hvis du ønsker at reservere bord. Har man reserveret bord, skal man komme senest 20 min. før koncertstart, ellers vil reservationen blive annulleret.\n",
+                    "Adgangen til Oskar er handicapvenlig. Kom i god tid og kontakt barteamet, så hjælper de dig ind.\n"
+                ]
+            }
+        ]
+    },
+    "kontaktInfo": {
+        "navn": "Kulturcafé Oskar",
+        "location": "Kingosvej 5 4321 Søby",
+        "tlf": "xxxxxxxx",
+        "medlemer": {
+            "Poul Frederiksen": {
+                "tlf": "xxxxxxxx",
+                "mail": "xxxxx@gmail.com"
+            },
+            "Bent Poulsen": {
+                "tlf": "xxxxxxxx",
+                "mail": "Bent.Poulsen@kulturcafeoskar.dk"
+            },
+            "Bo Hansen": {
+                "tlf": "xxxxxxxx",
+                "mail": "bo.Hansen@kulturcafeoskar.dk"
+            },
+            "bo.Hansen@kulturcafeoskar.dk": {
+                "tlf": "xxxxxxxx",
+                "mail": "xxxxxxx@gmail.com"
+            },
+            "Kristian Hansen": {
+                "tlf": "xxxxxxxx",
+                "mail": "xxxxxxxx@gmail.com"
+            }
+        }
+    }
+}
