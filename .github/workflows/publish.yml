@@ -34,9 +34,6 @@ jobs:
 
       - name: Build with Next.js 🏗️
         run: npx next build
-        
-      - name: Checkout 🛎️
-        uses: actions/checkout@v4
 
       - run: find .
 
