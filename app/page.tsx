@@ -1,33 +1,28 @@
 import Image from "next/image";
 import "./globals.css";
-import { request } from "http";
-import { AwaitedReactNode, JSXElementConstructor, ReactElement, ReactNode, ReactPortal } from "react";
 
 import mainPage from './public/texts/mainPage.json'
 import oskarCafeLogo from './public/logo-oskar.png'
 
-type StringArray = {
-  Json: any;
-  JsonName: string;
-};
 
-function ArrayToText(array: any[], arrayParent: any[])
+function ArrayToText(array: string[], arrayParent: sectionInfo)
 {
-  let returnValue: any[] = []
-  let hasList: boolean = false;
-  returnValue = array.map(value => {
-    let returnValue: any[] = []
+  let i: number = 0
+  let i2: number = 0
+  let returnValue: JSX.Element[][] = []
+  returnValue = array.map((value: string) => {
+    let returnValue: JSX.Element[] = []
     if(value.substring(0,1) == "\\" && value.substring(value.length-1) == "\\")
     {
-      hasList = true;
       returnValue = [
-        <ul style={{textAlign: "center", marginBottom: "1.5vh"}}>{arrayParent[value.substring(1, value.length-1)].map((arrayParentValue: string) => [<li>{arrayParentValue}</li>])}</ul>
+        <ul key={i} style={{textAlign: "center", marginBottom: "1.5vh"}}>{arrayParent.list1?.map((arrayParentValue: string) => {return [<li key={i2}>{arrayParentValue}</li>]; i2++})}</ul>
       ]
+      i++;
     }
     else
     {
       returnValue = [
-        <p style={{textAlign: "center", marginBottom: "1vh"}}>{value}</p>
+        <p key={0} style={{textAlign: "center", marginBottom: "1vh"}}>{value}</p>
       ]
     }
     return returnValue
@@ -38,10 +33,12 @@ function ArrayToText(array: any[], arrayParent: any[])
   )
 }
 interface sectionInfo {
+  "list0"?: string[],
+  "list1"?: string[],
+  "list2"?: string[],
   "name": string,
   "id": number,
-  "text": string[],
-  "array"?: any[]
+  "text": string[]
 }
 interface sectionProb {
   section: sectionInfo
@@ -51,21 +48,19 @@ function Section({section}:sectionProb/*props: sectionProb/*section: { name: str
   //let section = mainPage.section.BilletOgBord;
   //let section = props.section;
   //console.log(section)
-  let textSection: any[] = []
+  const textSection: sectionInfo[] = []
   
   //console.log(section)
 
-  let i: number = 0
+  //let i: StringValues = section
   //for (let thing in section) {
-    textSection[i] = section
-    let stringAr: String[]
-    i++;
+    textSection[0] = section
   //}
 
   const textContent: JSX.Element[][] = textSection.map((singleContent) => {
     let result = [<li key={singleContent.id * 2} style={{fontSize: 24, textAlign: "center"}}><h3>{singleContent.name}</h3></li>]
     let addition: JSX.Element[] = []
-    addition = [<li key={singleContent.id * 2}>{ArrayToText(singleContent.text, singleContent)}</li>]
+    addition = [<li key={singleContent.id * 2 + 1}>{ArrayToText(singleContent.text, singleContent)}</li>]
     /*singleContent.text.forEach((element: string) => {
       if(element.substring(0,1) == "\\" && element.substring(element.length-1) == "\\")
       {
@@ -89,11 +84,6 @@ function Section({section}:sectionProb/*props: sectionProb/*section: { name: str
     result = result.concat(addition)
     return result
   });
-  for(let kes in textContent)
-  {
-    //console.log(textContent[kes])
-    //console.log(textContent[kes][1].props)
-  }
   //console.log(textContent)
   return (
     <ul className="Flexbox" style={{width: "55vw"}}>

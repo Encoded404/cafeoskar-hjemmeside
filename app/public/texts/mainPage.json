@@ -20,20 +20,20 @@
                 ]
             },
             {
-                "name": "Lej Oskar",
-                "id": 2,
-                "text": [
-                    "Bygningen på Kingosvej kan lejes af private, foreninger og firmaer. Udlejningsansvarlig er Bent Poulsen, der kan kontaktes på tlf: xxxxxxxx eller mail: Bent.Poulsen@kulturcafeoskar.dk Kontakt Bent for at høre om mulighederne og om Kulturcafé Oskar er ledig.",
-                    "Prisliste for private",
-                    "\\list1\\",
-                    "Møde / konference / kursus",
-                    "Hold virksomhedens arrangement på Oskar. Vi kan skræddersy arrangementer for op til 70 personer i smukke omgivelser. I lokalerne forefindes bl.a.: projekter, lærred og internet."
-                ],
                 "list1": [
                     "Døgnleje på fredage, lørdage, søndage og helligdage: kr. 3.200 incl. rengøring.",
                     "Døgnleje på øvrige hverdage: kr. 2.300 incl. rengøring ",
                     "Leje for en halv hverdag: kr. 1.400 incl. rengøring",
                     "Lørdag fra kl. 8 til mandag kl. 6: kr. 4.200 incl. rengøring "
+                ],
+                "name": "Lej Oskar",
+                "id": 2,
+                "text": [
+                    "Bygningen på Kingosvej kan lejes af private, foreninger og firmaer. Udlejningsansvarlig er Bent Poulsen, der kan kontaktes på tlf: xxxxxxxx eller mail: Bent.Poulsen@kulturcafeoskar.dk Kontakt Bent for at høre om mulighederne og om Kulturcafé Oskar er ledig.",
+                    "Prisliste for private",
+                    "\\0\\",
+                    "Møde / konference / kursus",
+                    "Hold virksomhedens arrangement på Oskar. Vi kan skræddersy arrangementer for op til 70 personer i smukke omgivelser. I lokalerne forefindes bl.a.: projekter, lærred og internet."
                 ]
             }
         ],
