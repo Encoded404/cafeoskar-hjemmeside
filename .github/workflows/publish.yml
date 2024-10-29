@@ -40,6 +40,8 @@ jobs:
       - run: find .
       - run: cd .. 
       - run: find .
+      - run: find . -type d -or -type f
+
 
       - name: Upload artifact 📡
         uses: actions/upload-pages-artifact@v3
