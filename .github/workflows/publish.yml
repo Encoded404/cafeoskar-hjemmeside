@@ -33,9 +33,15 @@ jobs:
           static_site_generator: next
 
       - name: Build with Next.js 🏗️
-        run: npx next build
+        run: npx next build || exit 1
 
       - run: ls -R
+
+      - name: Check .next Directory Contents
+        run: ls -R .next || echo ".next directory not found"
+
+      - name: Check out Directory Contents
+        run: ls -R out || echo "out directory not found"
 
       - run: find .
       - run: cd .. 
